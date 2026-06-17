@@ -14,9 +14,7 @@ function getID(id)
                 return res.json();
             })
             .then((res) => {
-                // displayquote(res, 'beforeend');
-                // console.log('next', res);
-                // return fetch(`https://dummyjson.com/quotes/${id-1}`)
+               
                return  nextdata(res,id,'next')
             })
             .catch(err => console.error(err))
@@ -28,9 +26,7 @@ function getID(id)
             })
     
             .then((res) => {
-                // displayquote(res, 'beforeend');
-                // console.log('previous', res);
-                // return fetch(`https://dummyjson.com/quotes/${id - 1}`)
+        
                 return previousdata(res, id,'previous');
             })
             .catch(err => console.error(err))
