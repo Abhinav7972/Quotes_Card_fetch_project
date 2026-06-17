@@ -42,8 +42,8 @@ background-color: whitesmoke;
 
 .card
 {
-    width: 300px;
-    height: 300px;
+    /* width: 300px;
+    height: 300px; */
     margin: 10px;
     padding: 10px;
     display: flex;
